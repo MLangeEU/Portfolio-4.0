@@ -1,0 +1,398 @@
+/* new-rocker-regular - latin */
+@font-face {
+    font-family: 'New Rocker';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/new-rocker-v16-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/new-rocker-v16-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/new-rocker-v16-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/new-rocker-v16-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/new-rocker-v16-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/new-rocker-v16-latin-regular.svg#NewRocker') format('svg'); /* Legacy iOS */
+  }
+  /* m-plus-rounded-1c-regular - latin */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/m-plus-rounded-1c-v15-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/m-plus-rounded-1c-v15-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/m-plus-rounded-1c-v15-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/m-plus-rounded-1c-v15-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/m-plus-rounded-1c-v15-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/m-plus-rounded-1c-v15-latin-regular.svg#MPLUSRounded1c') format('svg'); /* Legacy iOS */
+  }
+  /* m-plus-rounded-1c-500 - latin */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/m-plus-rounded-1c-v15-latin-500.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/m-plus-rounded-1c-v15-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/m-plus-rounded-1c-v15-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/m-plus-rounded-1c-v15-latin-500.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/m-plus-rounded-1c-v15-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/m-plus-rounded-1c-v15-latin-500.svg#MPLUSRounded1c') format('svg'); /* Legacy iOS */
+  }
+/* m-plus-rounded-1c-700 - latin */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/m-plus-rounded-1c-v15-latin-700.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/m-plus-rounded-1c-v15-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/m-plus-rounded-1c-v15-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/m-plus-rounded-1c-v15-latin-700.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/m-plus-rounded-1c-v15-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/m-plus-rounded-1c-v15-latin-700.svg#MPLUSRounded1c') format('svg'); /* Legacy iOS */
+  }
+/* m-plus-rounded-1c-800 - latin */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 800;
+    src: url('../fonts/m-plus-rounded-1c-v15-latin-800.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/m-plus-rounded-1c-v15-latin-800.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/m-plus-rounded-1c-v15-latin-800.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/m-plus-rounded-1c-v15-latin-800.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/m-plus-rounded-1c-v15-latin-800.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/m-plus-rounded-1c-v15-latin-800.svg#MPLUSRounded1c') format('svg'); /* Legacy iOS */
+  }
+/* m-plus-rounded-1c-900 - latin */
+  @font-face {
+  font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/m-plus-rounded-1c-v15-latin-900.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/m-plus-rounded-1c-v15-latin-900.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/m-plus-rounded-1c-v15-latin-900.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/m-plus-rounded-1c-v15-latin-900.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/m-plus-rounded-1c-v15-latin-900.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/m-plus-rounded-1c-v15-latin-900.svg#MPLUSRounded1c') format('svg'); /* Legacy iOS */
+  }
+  
+  
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+  }
+p {
+    color: #fff;
+  }
+h1,h2,h3,h4,h5,h6 {
+    color: #fff;
+    font-family: 'M PLUS Rounded 1c';
+  }
+a {
+    color: #fff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+body {
+    background: #202023;
+  }
+  
+.nav_style {
+    display: block;
+    position: fixed;
+    width: 100%;
+    background: #20202380;
+    z-index: 2;
+    backdrop-filter: blur(10px);
+  }
+.char_container {
+    width: 100%;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    max-width: 768px;
+    padding-inline-start: 1rem;
+    padding-inline-end: 1rem;
+    display: flex;
+    padding: 0.5rem;
+  }
+.char_container p {
+    font-family: 'M PLUS Rounded 1c';
+    font-size: 1.3rem;
+    letter-spacing: -0.05rem;
+    font-weight: 700;
+  }
+.char_container a {
+    text-decoration: none;
+  }
+  
+header {
+    display: flex;
+    max-width: 320px;
+    margin: 0 auto;
+    padding: 5px;
+    justify-content: space-between;
+  }
+header a {
+    display: flex;
+  }
+header a img{
+    display: flex;
+    align-items: center;
+    width: 140px;
+    height: 40px;
+  }
+nav {
+    padding: 0.5rem;
+  }
+nav .dropdown {
+    text-align: center;
+    border-radius: 10px;
+  }
+#toggle_menu {
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    padding: 3px;
+    width: 120px;
+  }
+#toggle_menu img {
+    width: 30px;
+    height: 30px;
+  }
+  nav .menu {
+    border-radius: 10px;
+    padding: 5px;
+    line-height: 2rem;
+    display: none;
+  }
+nav .menu span{
+    display: none;
+  }
+nav .menu a {
+    text-decoration: none;
+    font-family: 'M PLUS Rounded 1c';
+    font-weight: 600;
+    letter-spacing: 0.09rem;
+    font-size: 1.2rem;
+}
+nav .open {
+    display: block;
+    background-color: #2D3748;
+    width: 120px;
+}
+
+.card_settings {
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+}
+.info_card {
+    width: 250px;
+    height: 360px;
+    position: relative;
+    z-index: 2;
+    border-radius: 20px;
+}
+.info_card .info_content {
+  width: 100%;
+  height: 100%;
+  background-color: #0c1016;
+  border-radius: 15px;
+}
+
+.info_card .info_content h2 {
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  font-size: 1.5rem;
+  font-family: 'M PLUS Rounded 1c';
+  text-decoration: underline;
+  text-underline-offset: 6px;
+  text-decoration-color: #525252;
+  text-decoration-thickness: 4px;
+}
+
+.info_card .info_content p {
+  color: #fff;
+  padding: 15px;
+  line-height: 1.33;
+  font-size: 1.1rem;
+  font-family: 'arial';
+  text-align: justify;
+}
+
+.info_card::before, .info_card::after {
+  content: "";
+  width: 260px;
+  height: 370px;
+  display: block;
+  position: absolute;
+  z-index: -1;
+  border-radius: 20px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(0), color-stop(#ff00aa), to(#00FFF1));
+  background-image: linear-gradient(0, #ff00aa, #00FFF1);
+  background-size: 100% 200%;
+  background-position: center center;
+  top: -5px;
+  left: -5px;
+  -webkit-animation: spin 1400ms infinite alternate;
+          animation: spin 1400ms infinite alternate;
+}
+
+.info_card::after {
+  -webkit-filter: blur(212.5px);
+          filter: blur(212.5px);
+}
+
+@-webkit-keyframes spin {
+  0% {
+    background-position: top center;
+  }
+  100% {
+    background-position: bottom center;
+  }
+}
+
+@keyframes spin {
+  0% {
+    background-position: top center;
+  }
+  100% {
+    background-position: bottom center;
+  }
+}
+/*============================*/
+
+.about_section {
+    margin-top: 11rem;
+    padding: 0.75rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.about_section h2 {
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #525252;
+    text-underline-offset: 6px;
+    text-decoration-thickness: 4px;
+    padding: 0.75rem;
+}
+.about_section p {
+    text-align: center;
+}
+.about_section .about_button_pos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about_section a {
+    height: 35px;
+    width: 200px;
+    margin-top: 1rem;
+    border: none;
+    border-radius: 25px;
+    background-color: royalblue;
+    color: white;
+    font-family: 'M PLUS Rounded 1c';
+    font-weight: 700;
+    font-size: 1.08rem;
+    letter-spacing: 0.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    
+}
+
+/*====================================*/
+
+.about_header {
+    border: 3px solid green;
+    display: flex;
+    justify-content: center;
+    padding: 00.75rem;
+}
+.about_header a {
+    text-decoration: none;
+    font-family: 'M Plus Rounded 1c';
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.container_pos {
+    display: flex;
+    justify-content: center;
+}
+.container_pos .about_container {
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 4rem;
+    width: 300px;
+    padding: 0.30rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.container_pos .about_container h3 {
+    letter-spacing: 0.51rem;
+}
+.about_container .about_card_one {
+    border: 3px solid black;
+    background-color: royalblue;
+    border-radius: 10px;
+    width: 250px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.about_container .about_card_one img {
+    padding-top: 0.75rem;
+    width: 180px;
+    height: 170px;
+}
+.about_container .about_card_one a {
+    border: 2px solid black;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    font-family: 'M PLUS Rounded 1c';
+    text-decoration: none;
+    font-weight: 700;
+
+}
+
+
+
+/* .about_container {
+    border: 3px solid red;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+}
+.about_card_one {
+    border: 2px solid black;
+    width: 260px; 
+    display: flex;
+    justify-content: center;
+    background-color: #007eff;
+    border-radius: 10px;
+}
+.about_card_one img {
+    width: 190px;
+    height: 150px;
+}
+.about_card_one p {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 259px;
+} */
